@@ -34,3 +34,10 @@ body {
   background-color: var(--bg-dark);
   color: var(--content-muted);
 }
+
+main {
+  display: grid;
+  height: 100dvh;
+  perspective: 1000px;
+  place-items: center;
+}
